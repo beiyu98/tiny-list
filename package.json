@@ -1,0 +1,35 @@
+{
+  "name": "tiny-list",
+  "version": "1.0.0",
+  "description": "a virtual-list for react",
+  "main": "index.js",
+  "scripts": {
+    "build-storybook": "cross-env STORYBOOK_DISPLAY_WARNING=true DISPLAY_WARNING=true build-storybook -c ./",
+    "debug": "cross-env NODE_OPTIONS=--inspect-brk STORYBOOK_DISPLAY_WARNING=true DISPLAY_WARNING=true start-storybook -p 9011 -c ./",
+    "storybook": "cross-env STORYBOOK_DISPLAY_WARNING=true DISPLAY_WARNING=true start-storybook -p 9011 -c ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucezhangcode/tiny-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucezhangcode/tiny-list/issues"
+  },
+  "homepage": "https://github.com/brucezhangcode/tiny-list#readme",
+  "dependencies": {
+    "@storybook/addon-controls": "^6.0.28",
+    "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-storysource": "^6.0.28",
+    "@storybook/react": "^6.0.28",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
